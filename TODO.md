@@ -1,5 +1,11 @@
 # TODO
 
+## Domain Setup
+
+- [ ] Set up custom domain `grindcollective.org`
+  - Either: Add CNAME record pointing to `grind-website.pages.dev`
+  - Or: Transfer DNS to Cloudflare for easier management
+
 ## Images
 
 Waiting on photos from Natika (GRIND folder). The site needs more imagery throughout:

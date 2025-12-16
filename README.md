@@ -159,9 +159,10 @@ See `TODO.md` for list of partners still needing logos.
 
 ### Updating Social Links
 
-Social media links are placeholder `#` values. Update them in:
-- `src/lib/components/Footer.svelte`
-- `src/routes/contact/+page.svelte`
+- **LinkedIn:** Already linked to https://www.linkedin.com/company/the-grind-collective/
+- **Instagram:** Commented out in Footer and Contact page. Uncomment and add URL when available:
+  - `src/lib/components/Footer.svelte`
+  - `src/routes/contact/+page.svelte`
 
 ### Updating Contact Email
 
