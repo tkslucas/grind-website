@@ -88,7 +88,7 @@
 	<div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 w-full">
 		<div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
 			<!-- Left side - Bold statement -->
-			<div class="order-2 lg:order-1">
+			<div class="order-1 lg:order-1">
 				<p class="text-grit-orange font-semibold tracking-widest uppercase text-sm mb-4 animate-fade-in">
 					Chicago 501(c)(3)
 				</p>
@@ -121,7 +121,7 @@
 			</div>
 
 			<!-- Right side - Statement block -->
-			<div class="order-1 lg:order-2 flex justify-center lg:justify-end">
+			<div class="order-2 lg:order-2 flex justify-center lg:justify-end">
 				<div class="relative">
 					<!-- Accent block behind -->
 					<div class="absolute -top-4 -left-4 w-full h-full bg-grit-orange/20 rounded-2xl"></div>
