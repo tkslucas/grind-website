@@ -72,3 +72,21 @@ Need to collect more logos for the infinite marquee on the homepage. Currently h
 - Place logos in `static/images/partners/`
 - Update `src/lib/data/partners.ts` `partnersWithLogos` array to add new logos
 - Ensure logos are visible on white background (avoid white-only logos)
+
+## Future Enhancements
+
+### High Priority (need photos)
+- [ ] Hero background image with dark overlay
+- [ ] Team/founder section on About page
+- [ ] Testimonials from partners or program participants
+
+### Medium Priority
+- [ ] Stats with context on Impact page (brief descriptions of what numbers mean)
+- [ ] Partner logo tooltips (hover to show name and collaboration details)
+- [ ] Featured programs section highlighting flagship initiatives
+- [ ] Press/media mentions ("As seen in" section)
+
+### Nice to Have
+- [ ] Newsletter signup (footer or dedicated section)
+- [ ] Impact stories / case studies
+- [ ] Scroll animations (fade in sections)
