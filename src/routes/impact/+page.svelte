@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { siteConfig, commitment } from '$lib/data/content';
-	import { partners, partnerCategories } from '$lib/data/partners';
+	import { partners, partnerCategories, partnersWithLogos } from '$lib/data/partners';
 </script>
 
 <svelte:head>
@@ -20,6 +20,38 @@
 			<p class="mt-6 text-xl text-urban-charcoal/70">
 				Through collaboration and collective action, we're building a network that transforms opportunities for Black and Brown youth in Chicago.
 			</p>
+		</div>
+	</div>
+</section>
+
+<!-- Partner Logo Marquee -->
+<section class="bg-off-white pb-16 overflow-hidden">
+	<div class="relative">
+		<!-- Gradient overlays for seamless fade -->
+		<div class="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-off-white to-transparent z-10"></div>
+		<div class="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-off-white to-transparent z-10"></div>
+
+		<div class="flex animate-marquee">
+			<!-- First set of logos -->
+			{#each partnersWithLogos as partner}
+				<div class="flex-shrink-0 mx-8 flex items-center justify-center h-20 w-40 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300">
+					<img
+						src={partner.logo}
+						alt={partner.name}
+						class="max-h-16 max-w-full object-contain"
+					/>
+				</div>
+			{/each}
+			<!-- Duplicate for seamless loop -->
+			{#each partnersWithLogos as partner}
+				<div class="flex-shrink-0 mx-8 flex items-center justify-center h-20 w-40 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300">
+					<img
+						src={partner.logo}
+						alt={partner.name}
+						class="max-h-16 max-w-full object-contain"
+					/>
+				</div>
+			{/each}
 		</div>
 	</div>
 </section>
