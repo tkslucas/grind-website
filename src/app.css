@@ -1,0 +1,167 @@
+@import 'tailwindcss';
+
+/* ===================================
+   GRIND COLLECTIVE - Design Tokens
+   =================================== */
+
+@theme {
+	/* Primary Colors */
+	--color-grit-orange: #E85C3C;
+	--color-rusted-copper: #B45F36;
+	--color-urban-charcoal: #2B2B2B;
+	--color-dust-sand: #C89C7A;
+	--color-electric-ochre: #F5A623;
+
+	/* Extended Palette */
+	--color-off-white: #F5F5F0;
+	--color-cream: #FAF9F6;
+
+	/* Font Families */
+	--font-heading: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+	--font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* ===================================
+   Base Styles
+   =================================== */
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--font-body);
+	background-color: var(--color-off-white);
+	color: var(--color-urban-charcoal);
+	line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-heading);
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+a {
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+}
+
+/* ===================================
+   Focus States (Accessibility)
+   =================================== */
+
+:focus-visible {
+	outline: 2px solid var(--color-grit-orange);
+	outline-offset: 2px;
+}
+
+/* ===================================
+   Selection
+   =================================== */
+
+::selection {
+	background-color: var(--color-grit-orange);
+	color: white;
+}
+
+/* ===================================
+   Animations
+   =================================== */
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fade-in-up {
+	from {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate-fade-in {
+	animation: fade-in 0.6s ease-out forwards;
+}
+
+.animate-fade-in-up {
+	animation: fade-in-up 0.6s ease-out forwards;
+}
+
+/* Staggered animation delays */
+.animation-delay-100 { animation-delay: 100ms; }
+.animation-delay-200 { animation-delay: 200ms; }
+.animation-delay-300 { animation-delay: 300ms; }
+.animation-delay-400 { animation-delay: 400ms; }
+.animation-delay-500 { animation-delay: 500ms; }
+
+/* Hero kinetic animations */
+@keyframes spin-slow {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+@keyframes pulse-slow {
+	0%, 100% { opacity: 0.15; transform: scale(1); }
+	50% { opacity: 0.25; transform: scale(1.05); }
+}
+
+@keyframes bounce-slow {
+	0%, 100% { transform: translateY(0); }
+	50% { transform: translateY(-10px); }
+}
+
+@keyframes ping-slow {
+	0% { transform: scale(1); opacity: 0.8; }
+	75%, 100% { transform: scale(2); opacity: 0; }
+}
+
+@keyframes scroll-down {
+	0% { transform: translateY(0); opacity: 1; }
+	100% { transform: translateY(6px); opacity: 0; }
+}
+
+.animate-spin-slow {
+	animation: spin-slow 30s linear infinite;
+}
+
+.animate-pulse-slow {
+	animation: pulse-slow 4s ease-in-out infinite;
+}
+
+.animate-bounce-slow {
+	animation: bounce-slow 2s ease-in-out infinite;
+}
+
+.animate-ping-slow {
+	animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.animate-scroll-down {
+	animation: scroll-down 1.5s ease-in-out infinite;
+}
+
+/* Infinite marquee animation */
+@keyframes marquee {
+	0% { transform: translateX(0%); }
+	100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+	animation: marquee 60s linear infinite;
+	width: max-content;
+}

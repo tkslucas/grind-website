@@ -1,0 +1,6 @@
+# GRIND Collective - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap location (update domain when deployed)
+Sitemap: https://grindcollective.org/sitemap.xml
