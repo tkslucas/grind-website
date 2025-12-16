@@ -14,10 +14,12 @@ Waiting on photos from Natika (GRIND folder). The site needs more imagery throug
 
 ## Contact Information
 
-Update placeholder `#` links with actual social media URLs:
+Social media links:
 
-- [ ] `src/lib/components/Footer.svelte` - Instagram and LinkedIn links
-- [ ] `src/routes/contact/+page.svelte` - Instagram and LinkedIn links
+- [x] LinkedIn - linked in Footer and Contact page
+- [ ] Instagram - commented out, uncomment when URL is available
+  - `src/lib/components/Footer.svelte`
+  - `src/routes/contact/+page.svelte`
 
 ## Get Involved Page
 
