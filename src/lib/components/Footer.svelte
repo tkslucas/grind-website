@@ -56,11 +56,17 @@
 					</li>
 					<li>
 						<a
-							href="mailto:info@grindcollective.org"
+							href="mailto:{siteConfig.email}"
 							class="text-white/80 hover:text-grit-orange transition-colors"
 						>
-							info@grindcollective.org
+							{siteConfig.email}
 						</a>
+					</li>
+					<li class="text-white/80">
+						Partner With Us: {siteConfig.phone}
+					</li>
+					<li class="text-white/60 text-sm">
+						EIN: {siteConfig.ein}
 					</li>
 				</ul>
 
@@ -95,6 +101,21 @@
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<!-- Donate Button -->
+		<div class="mt-8 text-center">
+			<a
+				href={siteConfig.donateUrl}
+				target="_blank"
+				rel="noopener noreferrer"
+				class="inline-flex items-center px-6 py-3 bg-grit-orange text-white font-semibold rounded-full hover:bg-electric-ochre transition-colors duration-200"
+			>
+				Donate
+			</a>
+			<p class="mt-3 text-sm text-white/60">
+				The GRIND Collective is a registered 501(c)(3) nonprofit organization. Contributions are tax-deductible to the extent permitted by law.
+			</p>
 		</div>
 
 		<!-- Bottom Bar -->
