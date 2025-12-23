@@ -70,7 +70,7 @@
 	<!-- Background image -->
 	<div class="absolute inset-0">
 		<img
-			src="/images/events/GRINDConferenceCloseupSpeakers.JPG"
+			src="/images/events/GRINDConferenceCloseupSpeakers.webp"
 			alt="GRIND Conference speakers"
 			class="w-full h-full object-cover blur-[3px]"
 		/>
@@ -159,7 +159,7 @@
 			<div class="relative">
 				<div class="absolute -top-4 -right-4 w-full h-full bg-grit-orange/20 rounded-2xl"></div>
 				<img
-					src="/images/events/GRINDConferenceWiderPhotoParticipants.JPG"
+					src="/images/events/GRINDConferenceWiderPhotoParticipants.webp"
 					alt="GRIND Conference participants"
 					class="relative rounded-2xl shadow-lg w-full object-cover"
 				/>
@@ -187,7 +187,7 @@
 			<div class="relative order-2 lg:order-1">
 				<div class="absolute -top-4 -left-4 w-full h-full bg-grit-orange/20 rounded-2xl"></div>
 				<img
-					src="/images/events/STEAMSummerCamp_ActivityKids.jpeg"
+					src="/images/events/STEAMSummerCamp_ActivityKids.webp"
 					alt="Students engaged in STEAM activities"
 					class="relative rounded-2xl shadow-lg w-full object-cover"
 				/>

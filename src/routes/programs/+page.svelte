@@ -3,12 +3,12 @@
 	import { onMount } from 'svelte';
 
 	const baseImages = [
-		'/images/events/GRINDConferenceCloseupParticipants.JPG',
-		'/images/events/GRINDConferenceCloseupSpeakers.JPG',
-		'/images/events/GRINDConferenceWiderPhotoParticipants.JPG',
-		'/images/events/GRINDConference_EveryonePictureAtTheEndOfEvent.jpeg',
-		'/images/events/STEAMSummerCamp_ActivityKids.jpeg',
-		'/images/events/STEAMSummerCamp_GroupPhotoTeachers.jpeg'
+		'/images/events/GRINDConferenceCloseupParticipants.webp',
+		'/images/events/GRINDConferenceCloseupSpeakers.webp',
+		'/images/events/GRINDConferenceWiderPhotoParticipants.webp',
+		'/images/events/GRINDConference_EveryonePictureAtTheEndOfEvent.webp',
+		'/images/events/STEAMSummerCamp_ActivityKids.webp',
+		'/images/events/STEAMSummerCamp_GroupPhotoTeachers.webp'
 	];
 
 	// Duplicate images for seamless looping
