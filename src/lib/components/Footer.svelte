@@ -30,11 +30,6 @@
 					Quick Links
 				</h3>
 				<ul class="mt-4 space-y-3">
-					<li>
-						<a href="/" class="text-white/80 hover:text-grit-orange transition-colors">
-							Home
-						</a>
-					</li>
 					{#each navigation as item}
 						<li>
 							<a href={item.href} class="text-white/80 hover:text-grit-orange transition-colors">
