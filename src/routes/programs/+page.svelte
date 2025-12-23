@@ -1,5 +1,27 @@
 <script lang="ts">
 	import { siteConfig, programAreas } from '$lib/data/content';
+	import { onMount } from 'svelte';
+
+	const baseImages = [
+		'/images/events/GRINDConferenceCloseupParticipants.JPG',
+		'/images/events/GRINDConferenceCloseupSpeakers.JPG',
+		'/images/events/GRINDConferenceWiderPhotoParticipants.JPG',
+		'/images/events/GRINDConference_EveryonePictureAtTheEndOfEvent.jpeg',
+		'/images/events/STEAMSummerCamp_ActivityKids.jpeg',
+		'/images/events/STEAMSummerCamp_GroupPhotoTeachers.jpeg'
+	];
+
+	// Duplicate images for seamless looping
+	const carouselImages = [...baseImages, ...baseImages];
+
+	let currentIndex = $state(0);
+
+	onMount(() => {
+		const interval = setInterval(() => {
+			currentIndex = (currentIndex + 1) % baseImages.length;
+		}, 4000);
+		return () => clearInterval(interval);
+	});
 </script>
 
 <svelte:head>
@@ -19,6 +41,29 @@
 			<p class="mt-6 text-xl text-urban-charcoal/70">
 				The GRIND Collective designs and supports programs that connect youth to hands-on learning, mentorship, research, and creative production.
 			</p>
+		</div>
+	</div>
+</section>
+
+<!-- Programs in Action -->
+<section class="bg-white py-16 lg:py-24 border-t border-dust-sand/20">
+	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+		<h2 class="text-3xl sm:text-4xl font-bold text-urban-charcoal mb-8">Programs in Action</h2>
+		<div class="overflow-hidden">
+			<div
+				class="flex transition-transform duration-500 ease-in-out gap-6"
+				style="transform: translateX(calc(-{currentIndex} * (100% / 3 + 0.5rem)))"
+			>
+				{#each carouselImages as image}
+					<div class="flex-shrink-0 w-[calc(100%/3-1rem)] rounded-2xl overflow-hidden">
+						<img
+							src={image}
+							alt="GRIND program"
+							class="w-full h-64 object-cover"
+						/>
+					</div>
+				{/each}
+			</div>
 		</div>
 	</div>
 </section>

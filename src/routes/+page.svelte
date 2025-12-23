@@ -146,14 +146,24 @@
 <!-- Who We Are Section -->
 <section class="bg-white py-16 lg:py-24">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-		<div class="max-w-4xl">
-			<h2 class="text-3xl sm:text-4xl font-bold text-urban-charcoal mb-6">Who We Are</h2>
-			<p class="text-lg text-urban-charcoal/70 mb-6">
-				The GRIND Collective was formed in <span class="font-bold text-urban-charcoal">November 2024</span> following the inaugural GRIND Conference, which convened more than 40 organizations across education, sports, media, technology, and community development. The Collective was created to address a shared challenge: siloed systems limit opportunity for youth, while collaboration unlocks scale, sustainability, and impact.
-			</p>
-			<p class="text-lg text-urban-charcoal/70">
-				What began as a convening has grown into a collaborative network and, in 2025, a formally incorporated <span class="font-bold text-urban-charcoal">501(c)(3)</span> organization. GRIND serves as both a programmatic hub and a shared infrastructure for partners working to reimagine youth learning, creativity, and access to opportunity.
-			</p>
+		<div class="grid lg:grid-cols-2 gap-12 items-center">
+			<div>
+				<h2 class="text-3xl sm:text-4xl font-bold text-urban-charcoal mb-6">Who We Are</h2>
+				<p class="text-lg text-urban-charcoal/70 mb-6">
+					The GRIND Collective was formed in <span class="font-bold text-urban-charcoal">November 2024</span> following the inaugural GRIND Conference, which convened more than 40 organizations across education, sports, media, technology, and community development. The Collective was created to address a shared challenge: siloed systems limit opportunity for youth, while collaboration unlocks scale, sustainability, and impact.
+				</p>
+				<p class="text-lg text-urban-charcoal/70">
+					What began as a convening has grown into a collaborative network and, in 2025, a formally incorporated <span class="font-bold text-urban-charcoal">501(c)(3)</span> organization. GRIND serves as both a programmatic hub and a shared infrastructure for partners working to reimagine youth learning, creativity, and access to opportunity.
+				</p>
+			</div>
+			<div class="relative">
+				<div class="absolute -top-4 -right-4 w-full h-full bg-grit-orange/20 rounded-2xl"></div>
+				<img
+					src="/images/events/GRINDConferenceWiderPhotoParticipants.JPG"
+					alt="GRIND Conference participants"
+					class="relative rounded-2xl shadow-lg w-full object-cover"
+				/>
+			</div>
 		</div>
 	</div>
 </section>
@@ -173,11 +183,21 @@
 <!-- Vision Section -->
 <section class="bg-off-white py-16 lg:py-24">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-		<div class="max-w-3xl mx-auto text-center">
-			<h2 class="text-3xl sm:text-4xl font-bold text-urban-charcoal mb-8">Our Vision</h2>
-			<p class="text-xl text-urban-charcoal/80 leading-relaxed">
-				{vision.statement}
-			</p>
+		<div class="grid lg:grid-cols-2 gap-12 items-center">
+			<div class="relative order-2 lg:order-1">
+				<div class="absolute -top-4 -left-4 w-full h-full bg-grit-orange/20 rounded-2xl"></div>
+				<img
+					src="/images/events/STEAMSummerCamp_ActivityKids.jpeg"
+					alt="Students engaged in STEAM activities"
+					class="relative rounded-2xl shadow-lg w-full object-cover"
+				/>
+			</div>
+			<div class="order-1 lg:order-2">
+				<h2 class="text-3xl sm:text-4xl font-bold text-urban-charcoal mb-8">Our Vision</h2>
+				<p class="text-xl text-urban-charcoal/80 leading-relaxed">
+					{vision.statement}
+				</p>
+			</div>
 		</div>
 	</div>
 </section>
