@@ -8,15 +8,18 @@
 
 ## Images
 
-Waiting on photos from Natika (GRIND folder). The site needs more imagery throughout:
+Event photos added to `static/images/events/`:
 
-- [ ] Hero section - add background image or photos of youth/programs
+- [x] Hero section - background image with blur overlay (GRINDConferenceCloseupSpeakers.JPG)
+- [x] Who We Are section - conference photo (GRINDConferenceWiderPhotoParticipants.JPG)
+- [x] Vision section - STEAM camp photo (STEAMSummerCamp_ActivityKids.jpeg)
+- [x] Programs page - auto-rotating carousel with all 6 event photos
+
+Still to do:
 - [ ] About page - team photos, event photos
-- [ ] Programs page - photos showcasing each program area
 - [ ] Impact page - photos of partners and collaborations
 - [ ] Get Involved page - community engagement photos
 - [ ] Consider adding flyers to the homepage or a dedicated section
-- [ ] Consider adding a photo gallery or testimonials with photos
 
 ## Contact Information
 
@@ -75,8 +78,8 @@ Need to collect more logos for the infinite marquee on the homepage. Currently h
 
 ## Future Enhancements
 
-### High Priority (need photos)
-- [ ] Hero background image with dark overlay
+### High Priority
+- [x] Hero background image with dark overlay
 - [ ] Team/founder section on About page
 - [ ] Testimonials from partners or program participants
 

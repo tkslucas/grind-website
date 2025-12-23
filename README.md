@@ -69,6 +69,7 @@ scripts/
 └── fetch-logos.js          # Utility script for fetching partner logos
 static/
 ├── images/
+│   ├── events/             # Event photos (conference, STEAM camp)
 │   └── partners/           # Partner logo assets (SVG/PNG)
 └── robots.txt              # Robots file for SEO
 ```
