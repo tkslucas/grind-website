@@ -67,11 +67,19 @@
 
 <!-- Hero Section -->
 <section class="relative min-h-[90vh] bg-urban-charcoal overflow-hidden flex items-center">
+	<!-- Background image -->
+	<div class="absolute inset-0">
+		<img
+			src="/images/events/GRINDConferenceCloseupSpeakers.JPG"
+			alt="GRIND Conference speakers"
+			class="w-full h-full object-cover blur-[3px]"
+		/>
+		<div class="absolute inset-0 bg-urban-charcoal/80"></div>
+	</div>
 	<!-- Animated geometric shapes -->
 	<div class="absolute inset-0 overflow-hidden">
 		<div class="absolute -top-32 -right-32 w-96 h-96 border-[3px] border-grit-orange/20 rounded-full animate-spin-slow"></div>
 		<div class="absolute top-1/2 -left-20 w-64 h-64 border-[2px] border-electric-ochre/15 rounded-full animate-pulse-slow"></div>
-		<div class="absolute top-0 left-1/4 w-[1px] h-full bg-gradient-to-b from-transparent via-grit-orange/10 to-transparent"></div>
 		<div class="absolute top-0 right-1/3 w-[1px] h-full bg-gradient-to-b from-transparent via-dust-sand/10 to-transparent"></div>
 		<div class="absolute bottom-0 right-0 w-72 h-72">
 			<div class="absolute bottom-0 right-0 w-full h-full border-t-[3px] border-l-[3px] border-grit-orange/20 rounded-tl-[100px]"></div>
