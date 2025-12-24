@@ -98,7 +98,7 @@
 					<span class="text-grit-orange">COLLECTIVE</span>
 				</h1>
 				<div class="mt-6 animate-fade-in animation-delay-150">
-					<p class="text-xl sm:text-2xl text-white/80 italic">
+					<p class="text-xl sm:text-2xl text-white/80">
 						{siteConfig.tagline}
 					</p>
 				</div>
