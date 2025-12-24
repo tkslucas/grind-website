@@ -41,7 +41,7 @@ The get-involved page (`src/routes/get-involved/+page.svelte`) needs improvement
 
 ## Partner Logos
 
-Need to collect more logos for the infinite marquee on the homepage. Currently have 11 logos, but many partners are missing.
+Currently have 18 logos in the marquee.
 
 ### Current logos in marquee:
 - [x] ESPN
@@ -49,26 +49,27 @@ Need to collect more logos for the infinite marquee on the homepage. Currently h
 - [x] Northwestern University
 - [x] Duke University
 - [x] Chicago Cubs
+- [x] Chicago Sky
 - [x] USC
 - [x] UC Berkeley
 - [x] Black Kids Predict
 - [x] Boys & Girls Club of Chicago
 - [x] TIILT Lab
 - [x] Big Ten Conference
+- [x] Chicago Public Schools
+- [x] YMCA of Chicago
+- [x] Fab Foundation
+- [x] New York University
+- [x] City of Chicago Mayor's Office
 
 ### Partners still needing logos:
-- [ ] Chicago Sky
 - [ ] Tulane University
 - [ ] University of Maryland
 - [ ] Drexel University
-- [ ] New York University
 - [ ] Shaw University
-- [ ] Chicago Public Schools
-- [ ] YMCA of Chicago
 - [ ] Chicago Park District
 - [ ] Comcast
 - [ ] Project Exploration
-- [ ] City of Chicago Mayor's Office
 
 ### Notes:
 - Logos should be SVG format when possible for best quality

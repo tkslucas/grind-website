@@ -162,6 +162,6 @@ button {
 }
 
 .animate-marquee {
-	animation: marquee 60s linear infinite;
+	animation: marquee 100s linear infinite;
 	width: max-content;
 }

@@ -60,12 +60,18 @@ export const partnersWithLogos = [
 	{ name: 'Northwestern University', logo: '/images/partners/northwestern-university.svg' },
 	{ name: 'Duke University', logo: '/images/partners/duke-university.svg' },
 	{ name: 'Chicago Cubs', logo: '/images/partners/chicago-cubs.svg' },
+	{ name: 'Chicago Sky', logo: '/images/partners/chicago-sky.svg' },
 	{ name: 'USC', logo: '/images/partners/university-of-southern-california.svg' },
 	{ name: 'UC Berkeley', logo: '/images/partners/uc-berkeley.svg' },
 	{ name: 'Black Kids Predict', logo: '/images/partners/black-kids-predict.svg' },
 	{ name: 'Boys & Girls Club of Chicago', logo: '/images/partners/bgcc.png' },
 	{ name: 'TIILT Lab', logo: '/images/partners/tiilt-lab.svg' },
 	{ name: 'Big Ten Conference', logo: '/images/partners/big-ten.svg' },
+	{ name: 'Chicago Public Schools', logo: '/images/partners/chicago-public-schools-logo.svg' },
+	{ name: 'YMCA of Chicago', logo: '/images/partners/ymca-chicago.svg' },
+	{ name: 'Fab Foundation', logo: '/images/partners/fab-foundation.svg' },
+	{ name: 'New York University', logo: '/images/partners/nyu.svg' },
+	{ name: "City of Chicago Mayor's Office", logo: '/images/partners/city-of-chicago.svg' },
 ];
 
 export const partnerCategories = {
