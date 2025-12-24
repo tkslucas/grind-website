@@ -74,7 +74,7 @@
 		<h2 class="text-3xl font-bold text-urban-charcoal mb-8">Program Areas Include:</h2>
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
 			{#each programAreas as program}
-				<div class="bg-off-white rounded-xl p-6 flex items-start gap-4">
+				<div class="bg-off-white rounded-xl p-6 flex items-center gap-4">
 					<span class="flex-shrink-0 w-10 h-10 bg-grit-orange rounded-full flex items-center justify-center">
 						<svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
