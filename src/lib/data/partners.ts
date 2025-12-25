@@ -64,7 +64,7 @@ export const partnersWithLogos = [
 	{ name: 'USC', logo: '/images/partners/university-of-southern-california.svg' },
 	{ name: 'UC Berkeley', logo: '/images/partners/uc-berkeley.svg' },
 	{ name: 'Black Kids Predict', logo: '/images/partners/black-kids-predict.svg' },
-	{ name: 'Boys & Girls Club of Chicago', logo: '/images/partners/bgcc.png' },
+	{ name: 'Boys & Girls Club of Chicago', logo: '/images/partners/bgcc.webp' },
 	{ name: 'TIILT Lab', logo: '/images/partners/tiilt-lab.svg' },
 	{ name: 'Big Ten Conference', logo: '/images/partners/big-ten.svg' },
 	{ name: 'Chicago Public Schools', logo: '/images/partners/chicago-public-schools-logo.svg' },

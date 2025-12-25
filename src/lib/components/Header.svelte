@@ -19,7 +19,7 @@
 			<!-- Logo -->
 			<a href="/" class="flex items-center gap-3" onclick={closeMobileMenu}>
 				<img
-					src="/images/GRIND Logo.png"
+					src="/images/GRIND Logo.webp"
 					alt="{siteConfig.name} Logo"
 					class="h-12 w-auto"
 				/>
